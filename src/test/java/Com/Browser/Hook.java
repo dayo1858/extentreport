@@ -19,9 +19,11 @@ public class Hook {
         return driver;
     }
 
+
+
+
     @After
     public static void teardown() {
         driver.quit();
-    }
 
 }
